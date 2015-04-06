@@ -5050,7 +5050,7 @@ exports.BattleScripts = {
 				if (dice < 1) {
 					set.name = 'IndianCharizard#';
 				} else {
-					set.name = 'Rukario';
+					set.name = 'Brendon McCullum';
 				}
 			} else if (template.id === 'cofagrigus') {
 				set.species = 'cofagrigus';
@@ -5377,6 +5377,16 @@ exports.BattleScripts = {
 					set.moves = ['wish', 'protect', 'scald', 'batonpass'];
 					set.nature = 'calm';
 					set.evs = {hp: 200, def: 252, spd: 56, spa: 0, atk: 0, spe: 0};
+			} else if (template.id === 'Blaziken-Mega') {
+				set.species = 'Blaziken';
+				var dice = this.random(2);
+				if (dice < 1) {
+					set.name = 'Anrin Dео Aνіs'
+					set.item = 'Blazikenite';
+					set.ability = 'Speed Boost';
+					set.moves = ['Blaze Kick', 'Acrobatics', 'Earthquake', 'Protect'];
+					set.nature = 'mild';
+					set.evs = {hp: 0, def: 252, spd: 56, spa: 62, atk: 252, spe: 196};
 				}
 			} else if (template.id === 'venusaur') {
 				set.species = 'venusaur';
