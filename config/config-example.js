@@ -230,6 +230,14 @@ exports.grouplist = [
 		id: "admin",
 		name: "Administrator",
 		root: true,
+		admin: false,
+		globalonly: true
+	},
+	{
+		symbol: '=',
+		id: "host",
+		name: "Hoster",
+		root: true,
 		globalonly: true
 	},
 	{
@@ -245,16 +253,18 @@ exports.grouplist = [
 		rangeban: true,
 		potd: true,
 		disableladder: true,
-		globalonly: true,
 		tournamentsmanagement: true
 	},
 	{
 		symbol: '#',
 		id: "owner",
 		name: "Room Owner",
-		inherit: '@',
-		jurisdiction: 'u',
+		inherit: '&',
+		jurisdiction: '&u',
 		roommod: true,
+		roomleader: true,
+		roomdesc: true,
+		roomintro: true,
 		roomdriver: true,
 		declare: true,
 		modchatall: true,
@@ -269,7 +279,6 @@ exports.grouplist = [
 		roomvoice: true,
 		roomplayer: true,
 		modchat: true,
-		roomonly: true,
 		privateroom: true,
 		joinbattle: true
 	},
@@ -283,6 +292,7 @@ exports.grouplist = [
 		modchat: true,
 		roomvoice: true,
 		forcerename: true,
+		declare: true,
 		ip: true,
 		alts: '@u',
 		tournaments: true
@@ -298,6 +308,7 @@ exports.grouplist = [
 		kick: true,
 		mute: true,
 		lock: true,
+		declare: true,
 		forcerename: true,
 		timer: true,
 		modlog: true,
@@ -313,6 +324,7 @@ exports.grouplist = [
 		id: "voice",
 		name: "Voice",
 		inherit: ' ',
+		declare: true,
 		broadcast: true
 	},
 	{
