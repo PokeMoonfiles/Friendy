@@ -4,7 +4,7 @@
 // If you really don't know how to do this... Run `node getserver.js URL`.
 // Fill in the URL of the client where `URL` is.
 // For example: `node getserver.js http://example-server.psim.us/`
-exports.server = 'cbc.pokecommunity.com';
+exports.server = 'http://eternityserver.herokuapp.com-80.psim.us/';
 exports.port = 8000;
 
 // This is the server id.
@@ -13,11 +13,11 @@ exports.port = 8000;
 // For example, on the Smogon server, it will say somewhere in the URL
 // ~~showdown, meaning that the server id is 'showdown'.
 // If you really don't know how to check this... run the said script above.
-exports.serverid = 'pokecommunity';
+exports.serverid = '';
 
 // The nick and password to log in with
 // If no password is required, leave pass empty
-exports.nick = 'PokeCommBot';
+exports.nick = 'Friendybot';
 exports.pass = 'filler';
 
 // The rooms that should be joined.
@@ -62,11 +62,11 @@ exports.debuglevel = 3;
 exports.excepts = [];
 
 // Whitelisted users are those who the bot will not enforce moderation for.
-exports.whitelist = ['PokeCommBot'];
+exports.whitelist = ['Friedny bot'];
 
 // Add a link to the help for the bot here. When there is a link here, .help and .guide
 // will link to it.
-exports.botguide = 'http://www.pokecommunity.com/showthread.php?t=289012#botguide';
+exports.botguide = '';
 
 // This allows the bot to act as an automated moderator. If enabled, the bot will
 // mute users who send 6 lines or more in 6 or fewer seconds for 7 minutes. NOTE: THIS IS
