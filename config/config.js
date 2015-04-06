@@ -544,11 +544,10 @@ exports.grouplist = [
 		id: "leader",
 		name: "Leader",
 		inherit: '@',
-		jurisdiction: 'u',
+		jurisdiction: '@u',
 		roommod: true,
 		roomdriver: true,
 		roomsubdriver: true,
-		roomonly: true,
 		tournamentsmanagement: true,
 		rmall: true
 	},
