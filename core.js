@@ -68,7 +68,7 @@ var core = exports.core = {
 
 		color: '#2ECC40',
 
-		avatarurl: 'http://cbc.pokecommunity.com/config',
+		avatarurl: 'https://github.com/AnrinDas/Pokemon-Showdown/tree/patch-2/config/avatars',
 
 		avatar: function (online, user, img) {
 			if (online === true) {
@@ -124,7 +124,7 @@ var core = exports.core = {
 		},
 
 		display: function (args, info) {
-			if (args === 'title') return 'font color="black" size="3"> <div class="profile-title">&nbsp;' + info + '</div>';
+			if (args === 'title') return '<font color="black" size="3"> <div class="profile-title">&nbsp;' + info + '</div>';
 			if (args === 'bp') return '<br>&nbsp;<strong><font color="' + this.color + '">Battle Points:</font></strong>&nbsp;' + info;
 			if (args === 'tourWins') return '<br>&nbsp;<strong><font color="' + this.color + '">Tournament Wins:</font></strong>&nbsp;' + info;
 		},
@@ -181,7 +181,7 @@ var core = exports.core = {
 		});
 
 		if (list.length > 1) {
-			var ladder = '<table border="1" cellspacing="0" cellpadding="3"><tbody><tr><th>Rank</th><th>User</th><th>Tournament Wins</th></tr>';
+			var ladder = '<table border="1" cellspacing="0" cellpadding="3"><tbody><tr><th>Rank</th><th>User</th><th>PCl Tournament Wins</th></tr>';
 			var len = list.length;
 
 			limit = len - limit;
