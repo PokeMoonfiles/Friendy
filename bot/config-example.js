@@ -4,7 +4,7 @@
 // If you really don't know how to do this... Run `node getserver.js URL`.
 // Fill in the URL of the client where `URL` is.
 // For example: `node getserver.js http://example-server.psim.us/`
-exports.server = 'http://eternityserver.herokuapp.com-80.psim.us/';
+exports.server = 'http://anrinstest.herokuapp.com-80.psim.us/';
 exports.port = 8000;
 
 // This is the server id.
@@ -13,12 +13,12 @@ exports.port = 8000;
 // For example, on the Smogon server, it will say somewhere in the URL
 // ~~showdown, meaning that the server id is 'showdown'.
 // If you really don't know how to check this... run the said script above.
-exports.serverid = '';
+exports.serverid = 'http://anrinstest.herokuapp.com-80.psim.us/';
 
 // The nick and password to log in with
 // If no password is required, leave pass empty
-exports.nick = 'Friendybot';
-exports.pass = 'filler';
+exports.nick = 'Anrin's Test Bot';
+exports.pass = 'qwerty';
 
 // The rooms that should be joined.
 // Joining Smogon's Showdown's Lobby is not allowed.
@@ -62,7 +62,7 @@ exports.debuglevel = 3;
 exports.excepts = [];
 
 // Whitelisted users are those who the bot will not enforce moderation for.
-exports.whitelist = ['Friedny bot'];
+exports.whitelist = ['Anrin's Test Bot'];
 
 // Add a link to the help for the bot here. When there is a link here, .help and .guide
 // will link to it.
