@@ -124,7 +124,7 @@ var core = exports.core = {
 		},
 
 		display: function (args, info) {
-			if (args === 'title') return '<div class="profile-title">&nbsp;' + info + '</div>';
+			if (args === 'title') return 'font color="black" size="3"> <div class="profile-title">&nbsp;' + info + '</div>';
 			if (args === 'bp') return '<br>&nbsp;<strong><font color="' + this.color + '">Battle Points:</font></strong>&nbsp;' + info;
 			if (args === 'tourWins') return '<br>&nbsp;<strong><font color="' + this.color + '">Tournament Wins:</font></strong>&nbsp;' + info;
 		},
@@ -164,8 +164,8 @@ var core = exports.core = {
 		return 0;
 	},
 
-	ladder: function (limit) {
-		var data = fs.readFileSync('config/tourWins.csv', 'gmt+5:30');
+	pclladder: function (limit) {
+		var data = fs.readFileSync('config/pclWins.csv', 'gmt+5:30');
 		var row = ('' + data).split("\n");
 
 		var list = [];
