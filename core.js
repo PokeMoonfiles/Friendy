@@ -68,7 +68,7 @@ var core = exports.core = {
 
 		color: '#2ECC40',
 
-		avatarurl: 'https://github.com/AnrinDas/Pokemon-Showdown/tree/patch-2/config/avatars',
+		avatarurl: 'cbc.pokecommunity.com/config/avatars/',
 
 		avatar: function (online, user, img) {
 			if (online === true) {
@@ -124,7 +124,7 @@ var core = exports.core = {
 		},
 
 		display: function (args, info) {
-			if (args === 'title') return '<font color="black" size="3"> <div class="profile-title">&nbsp;' + info + '</div>''</font color="black" size="3">';
+			if (args === 'title') return '<font color="black" size="3"> <strong> <div class="profile-title">&nbsp;' + info + '</font color="black" size="3"> </strong> </div>';
 			if (args === 'bp') return '<br>&nbsp;<strong><font color="' + this.color + '">Battle Points:</font></strong>&nbsp;' + info;
 			if (args === 'tourWins') return '<br>&nbsp;<strong><font color="' + this.color + '">Tournament Wins:</font></strong>&nbsp;' + info;
 		},
