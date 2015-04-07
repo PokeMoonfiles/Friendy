@@ -124,7 +124,7 @@ var core = exports.core = {
 		},
 
 		display: function (args, info) {
-			if (args === 'title') return '<font color="black" size="3"> <div class="profile-title">&nbsp;' + info + '</div>';
+			if (args === 'title') return '<font color="black" size="3"> <div class="profile-title">&nbsp;' + info + '</div>''</font color="black" size="3">';
 			if (args === 'bp') return '<br>&nbsp;<strong><font color="' + this.color + '">Battle Points:</font></strong>&nbsp;' + info;
 			if (args === 'tourWins') return '<br>&nbsp;<strong><font color="' + this.color + '">Tournament Wins:</font></strong>&nbsp;' + info;
 		},
