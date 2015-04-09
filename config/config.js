@@ -1,10 +1,10 @@
 // The server ID - a unique ID describing this Showdown server
-exports.serverid = 'pokecommunity';
+exports.serverid = 'Friendy';
 
 // The server token - to access the login database and ladder on pokemonshowdown.com
 //   This token must be registered for accessing the ladder, but you will
 //   still be able to login with an unregistered token.
-exports.servertoken = 'filler';
+exports.servertoken = 'anrin';
 
 // The server port - the port to run Pokemon Showdown under
 exports.port = 8000;
@@ -548,7 +548,6 @@ exports.grouplist = [
 		roommod: true,
 		roomdriver: true,
 		roomsubdriver: true,
-		roomonly: true,
 		tournamentsmanagement: true,
 		rmall: true
 	},
