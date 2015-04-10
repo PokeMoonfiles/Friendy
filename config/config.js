@@ -167,6 +167,7 @@ exports.herokuhack = false;
 exports.customavatars = {
 	'ppn':'charizard_ppn.gif',
 	'wolf': 'wolf.gif',
+	'anrinn':'anrinn.gif'
 	'smusrn': 'wolf.gif',
 	'peanutbutterjelli': 'jelli.jpg',
 	'jelli': 'jelli.jpg',
